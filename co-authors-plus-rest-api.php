@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Co-Authors Plus Rest API
  * Description: Simple plugin to include co-authors in posts via WP Rest API.
- * Version: 0.0.3
+ * Version: 0.0.4
  * License: GPL2+
 */
 function init_endpoints() {
