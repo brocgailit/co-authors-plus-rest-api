@@ -26,8 +26,8 @@ function init_endpoints() {
             foreach ($coauthors as $author) {
                 $authors[] = array(
                     'id' => $author->id,
-                    'display_name' => $author->display_name,
-                    'user_nicename' => $author->user_nicename,
+                    'name' => $author->display_name,
+                    'slug' => $author->user_nicename,
                     'description' => $author->description,
                     'email' => $author->user_email,
                     'avatar_urls' => rest_get_avatar_urls($author->user_email)
