@@ -29,8 +29,8 @@ function init_endpoints() {
                     'display_name' => $author->display_name,
                     'user_nicename' => $author->user_nicename,
                     'description' => $author->description,
-                    'email' => $author->email,
-                    'avatar_urls' => rest_get_avatar_urls($author->email)
+                    'email' => $author->user_email,
+                    'avatar_urls' => rest_get_avatar_urls($author->user_email)
                 );
             };
 
