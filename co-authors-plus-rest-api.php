@@ -1,6 +1,9 @@
 <?php
 /*
-Plugin Name: Co-Authors Plus Rest API
+ * Plugin Name: Co-Authors Plus Rest API
+ * Description: Simple plugin to include co-authors in posts via WP Rest API.
+ * Version: 0.0.2
+ * License: GPL2+
 */
 if ( function_exists('get_coauthors') ) {
     add_action( 'rest_api_init', 'custom_register_coauthors' );
